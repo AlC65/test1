@@ -34,6 +34,10 @@ int main()
     {
         i *= 2;
     }
+    for (int &i : l)
+    {
+        i *= 100;
+    }
 
     std::cout << "Contents of the list, as seen through a shuffled vector: ";
     for (int i : v)
